@@ -43,7 +43,7 @@ pt:
         checkout_complete: Checkout Completo
         completed_at: Completado em
         considered_risky: Considerado de risco
-        coupon_code: Código do cupom
+        coupon_code: Código do cupão
         created_at: Criado em
         email: Email do cliente
         ip_address: Endereço IP
@@ -58,7 +58,7 @@ pt:
         address1: Endereço
         city: Cidade
         firstname: Nome
-        lastname: Sobrenome
+        lastname: Apelido
         phone: Telefone
         state: Estado
         zipcode: CEP
@@ -66,7 +66,7 @@ pt:
         address1: Endereço
         city: Cidade
         firstname: Nome
-        lastname: Sobrenome
+        lastname: Apelido
         phone: Telefone
         state: Estado
         zipcode: CEP
@@ -433,7 +433,7 @@ pt:
     all: Todos
     all_adjustments_closed: Todos os ajustes foram fechados!
     all_adjustments_opened: Todos os ajustes foram abertos com sucesso!
-    all_departments: Todos Departamentos
+    all_departments: Tudo
     all_items_have_been_returned:
     allow_ssl_in_development_and_test: Permitir SSL em desenvolvimento e teste
     allow_ssl_in_production: Permitir SSL em Produção
@@ -454,7 +454,7 @@ pt:
     approved_at: Aprovado em
     approver: Aprovador
     are_you_sure: Tem a Certeza?
-    are_you_sure_delete: Tem a certeza que deseja remover este registro?
+    are_you_sure_delete: Tem a certeza que deseja remover este registo?
     associated_adjustment_closed: O ajuste relacionado está fechado e não será recalculado. Você que deixar o ajuste em aberto?
     at_symbol: '@'
     authorization_failure: Falha na Autorização
@@ -646,15 +646,15 @@ pt:
         no_payment_methods_available: Não existem métodos de pagamentos configurados para esse ambiente
         no_shipping_methods_available: Não existem métodos de entrega para o local selecionado, por favor troque seu endereço e tente novamente.
     errors_prohibited_this_record_from_being_saved:
-      one: 1 Erro impediu o registro de ser gravado!
-      other: "%{count} erros impediram o registro de ser gravado"
+      one: 1 Erro impediu o registo de ser gravado!
+      other: "%{count} erros impediram o registo de ser gravado"
     event: Evento
     events:
       spree:
         cart:
           add: Adicionar ao carrinho
         checkout:
-          coupon_code_added: Código do cupom adicionado
+          coupon_code_added: Código do cupão adicionado
         content:
           visited: Página com conteúdo estático
         order:
@@ -752,7 +752,7 @@ pt:
     jirafe: Jirafe
     landing_page_rule:
       path: Caminho
-    last_name: Sobrenome
+    last_name: Apelido
     last_name_begins_with: 'Sobrenome Começa Com:'
     learn_more: Aprenda Mais
     lifetime_stats: Histórico
@@ -884,14 +884,14 @@ pt:
     order_mailer:
       cancel_email:
         dear_customer: Caro Cliente,\n
-        instructions: Sua encomenda foi cancelada. Por favor, mantenha esse cancelamento em seus registros.
+        instructions: Sua encomenda foi cancelada. Por favor, mantenha esse cancelamento em seus registos.
         order_summary_canceled: "Índice de Encomenda [Cancelada]"
         subject: Cancelamento de Encomenda
         subtotal: Subtotal
         total: Total
       confirm_email:
         dear_customer: Caro Cliente,\n
-        instructions: Por favor reveja e mantenha essas informações em seus registros.
+        instructions: Por favor reveja e mantenha essas informações em seus registos.
         order_summary: "Índice de Encomendas"
         subject: Confirmação de Encomendas
         subtotal: Subtotal
@@ -1065,7 +1065,7 @@ pt:
     refunded_amount: Valor Reembolsado
     refunds:
     register: Registrar-se
-    registration: Registro
+    registration: Registo
     reimburse: Restituir
     reimbursed: Restituído
     reimbursement: Restituição
