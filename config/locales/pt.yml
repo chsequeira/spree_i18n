@@ -498,7 +498,7 @@ pt:
     card_number: Número do Cartão
     card_type: Tipo do Cartão
     card_type_is: O Tipo do Cartão é
-    cart: Carrinho de Compras
+    cart: Carrinho
     cart_subtotal: Subtotal do carrinho
     categories: Categorias
     category: Categoria
@@ -1185,7 +1185,7 @@ pt:
     shipping_price_sack: Preço
     shipping_total: Total de envio
     shop_by_taxonomy: Comprar por %{taxonomy}
-    shopping_cart: Carrinho de compra
+    shopping_cart: Carrinho
     show: Mostrar
     show_active: Mostrar ativos
     show_deleted: Mostra apagados
