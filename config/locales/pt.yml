@@ -619,19 +619,19 @@ pt:
     editing_user: Editando Utilizador
     eligibility_errors:
       messages:
-        has_excluded_product:
-        item_total_less_than:
-        item_total_less_than_or_equal:
-        item_total_more_than:
-        item_total_more_than_or_equal:
-        limit_once_per_user:
-        missing_product:
-        missing_taxon:
-        no_applicable_products:
-        no_matching_taxons: Nenhuma árvore de categoria correspondente
-        no_user_or_email_specified:
-        no_user_specified:
-        not_first_order:
+        has_excluded_product: O seu carrinho contém um produto que impede este código de cupão de ser aplicado.
+        item_total_less_than: Este código de cupão não pode ser aplicado a encomendas com valor inferior a %{amount}.
+        item_total_less_than_or_equal: Este código de cupão não pode ser aplicado a encomendas com valor inferior ou igual a %{amount}.
+        item_total_more_than: Este código de cupão não pode ser aplicado a encomendas com valor superior a %{amount}.
+        item_total_more_than_or_equal: Este código de cupão não pode ser aplicado a encomendas com valor superior ou igual a %{amount}.
+        limit_once_per_user: Este código de cupão pode ser usado apenas uma vez por utilizador.
+        missing_product: Este código de cupão não pode ser aplicado porque você não tem todos os produtos necessários no seu carrinho.
+        missing_taxon: Você precisa adicionar um produto de todas as categorias aplicáveis antes de aplicar este código de cupão.
+        no_applicable_products: Você precisa adicionar um produto aplicável antes de aplicar este código de cupão.
+        no_matching_taxons: Você precisa adicionar um produto a partir de uma categoria aplicável antes de aplicar este código de cupão.
+        no_user_or_email_specified: Você precisa fazer o login ou fornecer seu e-mail antes de aplicar este código de cupão.
+        no_user_specified: Você precisa fazer o login antes de aplicar este código de cupão.
+        not_first_order: Este código do cupão só pode ser aplicado na sua primeira encomenda
     email: Email
     empty: Vazio
     empty_cart: Esvaziar o Carrinho
@@ -898,7 +898,7 @@ pt:
         thanks: Obrigado Por Negociar.
         total: Total
     order_not_found: Não conseguimos encontrar sua encomenda. Por favor tente novamente.
-    order_number: Número do Encomenda %{number}
+    order_number: Encomenda número %{number}
     order_processed_successfully: Sua encomenda foi processado com sucesso.
     order_resumed: Encomenda retomada
     order_state:
